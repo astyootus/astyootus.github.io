@@ -1,0 +1,44 @@
+body {
+	background: linear-gradient(0deg, #222222 0%, #555555 100%) !important;
+	background-attachment: fixed;
+	min-height: 100vh;
+  font-family: "Playfair Display";
+  color: #ffffff;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: "KiwiSoda";
+  color: #ffffff;
+}
+
+p {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.textstart {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.astutusimage img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  align-items: center;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .textstart {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
