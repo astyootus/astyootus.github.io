@@ -22,7 +22,6 @@ p {
 .textstart {
   display: grid;
   grid-template-columns: 1.5fr 0.5fr;
-  gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -39,6 +38,12 @@ p {
 @media (max-width: 768px) {
   .textstart {
     grid-template-columns: 1fr;
-    gap: 20px;
   }
+}
+
+.pdfs {
+  display: grid;
+  grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+  max-width: 1200px;
+  padding: 20px;
 }

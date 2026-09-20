@@ -4,9 +4,13 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>home</title>
     <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="https://cloudflare.com"></script>
   </head>
-  <body>
+  <body> <br>
+    <br>
     <h1>astutus</h1>
+    <br>
+    <br>
     <hr>
     <section class="textstart">
       <div class="text">
@@ -19,8 +23,27 @@
           with BlueGriffon 3.1. He also wishes to put pdfs containing his
           music's sheet music in this lovely* website of his.</p>
         *not so lovely </div>
-      <div class="image" align="center"> <img src="images/astutus_backgroundno.png"
+      <div class="image" align="center"> <img src="images/astutus_backgroundno.png"
+
           style="width: 204px; height: 204px;"> </div>
     </section>
+    <div class="pdfs">
+      <div class="one"> <img src="images/hope_isn%27t_in_the_mind.png" alt="hope isn't in the mind" loading="lazy" style="width: 145px; height: 205px;">
+        <br>
+        <br>
+        hope isn't in the mind <br>
+        <a href="images/hope_isn%27t_in_the_mind.pdf" download="hope isn't in the mind.pdf">
+          download
+        </a>
+      </div>
+      <div class="two"> <img src="images/moving.png" alt="Vintage Denim Jacket" loading="lazy" style="width: 145px; height: 205px;">
+        <br>
+        <br>
+        moving
+        <br>
+        <a href="images/moving.pdf" download="moving.pdf"> download
+        </a>
+      </div>
+    </div>
   </body>
 </html>
